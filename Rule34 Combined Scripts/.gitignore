@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# .freebuff (Desktop-App-Daten)
+.freebuff/
+*.db
+*.db-shm
+*.db-wal

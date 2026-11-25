@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Lokale API-Secrets – niemals committen oder veröffentlichen
+.env.local
+.env.*.local
+
+# .freebuff (Desktop-App-Daten)
+.freebuff/
+*.db
+*.db-shm
+*.db-wal

@@ -1,0 +1,21 @@
+{
+  "name": "rule34-image-board-enhancer",
+  "version": "1.0.0",
+  "description": "Rule34 Image Board Enhancer – Userscript für rule34.xxx (src/-Module + esbuild-Build)",
+  "main": "Rule34 Image Board Enhancer.js",
+  "scripts": {
+    "build": "node build.js",
+    "lint": "eslint .",
+    "test:parser": "node test/parser.test.mjs",
+    "test:smoke": "node --no-experimental-webstorage tools/smoke-test.js",
+    "test:imports": "node tools/check-imports.mjs"
+  },
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "esbuild": "^0.28.2",
+    "eslint": "^10.8.1",
+    "globals": "^17.11.0"
+  }
+}

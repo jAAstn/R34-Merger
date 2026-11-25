@@ -1,0 +1,21 @@
+{
+  "name": "steamy34",
+  "version": "1.0.0",
+  "description": "Steamy34 – Userscript für rule34.xxx (src/-Module + esbuild-Build)",
+  "main": "Steamy34.js",
+  "scripts": {
+    "build": "node build.js",
+    "lint": "eslint .",
+    "test:imports": "node tools/check-imports.mjs",
+    "test:smoke": "node --no-experimental-webstorage tools/smoke-test.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "acorn": "^8.15.0",
+    "esbuild": "^0.28.2",
+    "eslint": "^10.8.1",
+    "globals": "^17.11.0"
+  }
+}
